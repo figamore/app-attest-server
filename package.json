@@ -1,0 +1,42 @@
+{
+  "name": "app-attest-server",
+  "version": "1.0.0",
+  "description": "A robust and easy-to-use npm package that provides server-side validation of Apple App Attest artifacts and assertions. Simple toolkit for iOS device attestation.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node examples/server/index.js",
+    "prepare": "echo \"Package ready for production\""
+  },
+  "keywords": [
+    "Apple",
+    "app",
+    "attest",
+    "attestation",
+    "assertion",
+    "validation",
+    "server",
+    "nodejs",
+    "express",
+    "devicecheck"
+  ],
+  "author": "Figamore",
+  "license": "MIT",
+  "homepage": "https://github.com/figamore/app-attest-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/figamore/app-attest-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/figamore/app-attest-server/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@peculiar/asn1-schema": "^2.3.8",
+    "@peculiar/asn1-x509": "^2.3.8",
+    "base64url": "^3.0.1",
+    "cbor": "^9.0.1",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "app-attest-server-example",
+  "version": "1.0.0",
+  "description": "Simple server example demonstrating app-attest-server usage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
