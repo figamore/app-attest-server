@@ -1,12 +1,8 @@
 {
   "name": "app-attest-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A robust and easy-to-use npm package that provides server-side validation of Apple App Attest artifacts and assertions. Simple toolkit for iOS device attestation.",
   "main": "src/index.js",
-  "scripts": {
-    "start": "node examples/server/index.js",
-    "prepare": "echo \"Package ready for production\""
-  },
   "keywords": [
     "Apple",
     "app",
@@ -33,10 +29,10 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "@peculiar/asn1-schema": "^2.3.8",
-    "@peculiar/asn1-x509": "^2.3.8",
+    "@peculiar/asn1-schema": "^2.6.0",
+    "@peculiar/asn1-x509": "^2.6.0",
     "base64url": "^3.0.1",
-    "cbor": "^9.0.1",
+    "cbor": "^10.0.11",
     "sqlite3": "^5.1.7"
   }
 }
