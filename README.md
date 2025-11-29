@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/npm/v/app-attest-server.svg?style=flat-square" alt="npm version">
   </a>
   <a href="https://github.com/figamore/app-attest-server/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/app-attest-server.svg?style=flat-square" alt="license">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="license">
   </a>
 </p>
 
