@@ -1,6 +1,6 @@
 {
   "name": "app-attest-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A robust and easy-to-use npm package that provides server-side validation of Apple App Attest artifacts and assertions. Simple toolkit for iOS device attestation.",
   "main": "src/index.js",
   "keywords": [
@@ -26,7 +26,7 @@
     "url": "https://github.com/figamore/app-attest-server/issues"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@peculiar/asn1-schema": "^2.6.0",
